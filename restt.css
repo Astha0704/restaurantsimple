@@ -1,0 +1,92 @@
+.nav{
+    width:900px;
+    
+    
+    float:right;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul li{
+    width:120px;
+    display:inline;
+    float:left;
+    margin:10px auto;
+    text-align: center;
+
+}
+
+.nav ul li a{
+    width: 900px;
+    text-decoration: none;
+    color:fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: oblique;
+
+}
+.nav ul li:hover{ background-color: aqua;}
+.nav ul li a :hover{
+    cursor: pointer;
+    color: royalblue;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(bg2.jpg);
+    background-size: cover;
+    background-position:center ;
+    color:#fff
+}
+.content{
+    width:300px;
+    height:100%;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+
+.content h1{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 200px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.content h4{
+    text-align: center;
+    color: #fff;
+    font-weight: 70px;
+    font: size 10px;
+    font-style: oblique;
+}
+
+.content h5{
+    text-align: center;
+    text-transform: uppercase;
+     
+}
+
+.content h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin:40ox auto;
+}
+.opt form,input[type="button"]
+{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin:14px auto;
+    padding-left:50px;
+    padding-right: 50px;
+    text-align: center;
+
+
+}
+
+form,input[type="button"]:hover{
+    background-color: aqua;
+}
